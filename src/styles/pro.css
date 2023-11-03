@@ -1,0 +1,157 @@
+#pro {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.section__text>span {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #E1E7EF;
+}
+
+.section__text>p {
+    color: #818995;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    line-height: 1.75rem;
+}
+
+.pro__card {
+    max-width: fit-content;
+    height: 389px;
+    border: 1px solid #818995;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: #E1E7EF;
+    margin-top: 20px;
+    border-radius: calc(0.5rem - 2px);
+}
+
+.pro__card .pro__card-text >span {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.pro__card .pro__card-text >p { 
+    color: #818995;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 10px 0;
+}
+
+
+.pro__card>.pro__card-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pro__card-price>span {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.pro__card-price>p {
+    color: #818995;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.pro__card-price>button {
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 287px;
+    height: 2.75rem;
+    border: none;
+    outline: none;
+    border-radius: calc(0.5rem - 2px);
+}
+
+
+@media (min-width: 300px) and (max-width: 428px) {
+    #pro {
+        max-width: 302px;
+    }
+
+    .pro__card {
+        padding: 20px;
+    }
+
+    .pro__card-price>button {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 428px) and (max-width: 576px) {
+    #pro {
+        max-width: 412px;
+    }
+    #pro > .pro__card{
+        max-width: 404px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 721px) {
+    #pro {
+        max-width: fit-content;
+    }
+
+    .pro__card {
+        max-width: 534px;
+        height: 340px;
+    }
+    .pro__card-price > button{
+        max-width: 452px;
+    }
+}
+
+@media (min-width: 722px) and (max-width: 866px) {
+    #pro {
+        max-width: fit-content;
+    }
+
+    .pro__card {
+        max-width: 702px;
+        height: fit-content;
+    }
+}
+
+@media (min-width: 867px) and (max-width: 1011px) {
+    #pro {
+        max-width: fit-content;
+    }
+
+    .pro__card {
+        max-width: 908px;
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 1012px) {
+    #pro {
+        max-width: fit-content;
+    }
+
+    .pro__card {
+        max-width: 960px;
+        height: fit-content;
+    }
+}

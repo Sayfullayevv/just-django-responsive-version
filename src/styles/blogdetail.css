@@ -1,0 +1,129 @@
+#blogdetail {
+    max-width: 433px;
+    margin: 0 auto;
+    padding: 24px 32px;
+}
+
+.blogdetail__content>.blogdetail__content-title>p {
+    color: hsl(214, 16%, 54%);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.blogdetail__content>.blogdetail__content-title>span {
+    font-size: 2.25rem;
+    color: white;
+    font-weight: 700;
+}
+
+.blogdetail__content>.blogdetail__content-title>img {
+    width: 369px;
+    border-radius: calc(0.5rem - 2px);
+    margin: 20px 0;
+}
+
+.blogdetail__content-text>p {
+    color: white;
+}
+
+.blogdetail__content>.blogdetail__content-text>span {
+    letter-spacing: -.025em;
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 5.25rem;
+    padding-bottom: .25rem;
+    border-bottom-width: 1px;
+    scroll-margin: 5rem;
+    color: white;
+}
+
+
+.blogdetail__content-text>.code__area {
+    width: auto;
+    border: 1px solid hsl(214, 16%, 54%);
+    margin: 24px 0;
+    padding: 16px 0;
+    border-radius: calc(0.5rem - 2px);
+    background-color: black;
+}
+
+.code__area>pre {
+    padding: 0 16px;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer {
+    position: relative;
+    top: -310px;
+}
+
+@media (min-width: 300px) and (max-width: 428px) {
+    #blogdetail {
+        max-width: 272px;
+    }
+
+    .blogdetail__content-text>.code__area {
+        overflow-x: scroll;
+    }
+
+
+    .blogdetail__content-title>img {
+        max-width: 272px;
+    }
+}
+
+@media (min-width: 428px) and (max-width: 576px) {
+    #blogdetail {
+        max-width: 412px;
+    }
+    .blogdetail__content-text>.code__area {
+        overflow-x: scroll;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 721px) {
+    #blogdetail {
+        max-width: 572px;
+    }
+
+
+    .blogdetail__content>.blogdetail__content-title>img {
+        width: 512px;
+    }
+}
+
+
+@media (min-width: 722px) and (max-width: 866px) {
+    #blogdetail {
+        max-width: 712px;
+    }
+
+
+    .blogdetail__content>.blogdetail__content-title>img {
+        width: 662px;
+    }
+}
+
+
+@media (min-width: 867px) and (max-width: 1011px) {
+    #blogdetail {
+        max-width: 712px;
+    }
+
+
+    .blogdetail__content>.blogdetail__content-title>img {
+        width: 712px;
+    }
+}
+
+@media screen and (min-width: 1012px) {
+    #blogdetail {
+        max-width: 712px;
+    }
+
+
+    .blogdetail__content>.blogdetail__content-title>img {
+        width: 712px;
+    }
+}
